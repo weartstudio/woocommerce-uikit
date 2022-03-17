@@ -1,0 +1,57 @@
+//
+// Component: Icon
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+$icon-button-background:                         $global-primary-background;
+$icon-button-hover-background:                   darken($icon-button-background, 5%);
+$icon-button-active-background:                  darken($icon-button-background, 10%);
+$icon-button-color:                              $global-dark;
+
+
+
+// Style modifiers
+// ========================================================================
+
+//
+// Link
+//
+
+// @mixin hook-icon-link(){}
+
+// @mixin hook-icon-link-hover(){}
+
+// @mixin hook-icon-link-active(){}
+
+//
+// Button
+//
+
+
+
+@mixin hook-icon-button(){
+}
+@mixin hook-icon-button-hover(){}
+
+@mixin hook-icon-button-active(){}
+
+
+// Miscellaneous
+// ========================================================================
+
+// @mixin hook-icon-misc(){}
+
+
+// Inverse
+// ========================================================================
+
+// @mixin hook-inverse-icon-link(){}
+// @mixin hook-inverse-icon-link-hover(){}
+// @mixin hook-inverse-icon-link-active(){}
+
+//  @mixin hook-inverse-icon-button(){}
+// @mixin hook-inverse-icon-button-hover(){}
+// @mixin hook-inverse-icon-button-active(){}

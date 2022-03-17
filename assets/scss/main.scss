@@ -1,0 +1,25 @@
+ // 1. Own variables
+ $black: #000;
+ 
+ // UIKIT VARS
+ $global-font-family: 'Nunito Sans', sans-serif;
+ $base-heading-font-weight: 700;
+ $global-2xlarge-font-size: 42px; // h1
+ $global-xlarge-font-size: 28px; // h2
+ $global-large-font-size: 18px; // h3
+ $global-medium-font-size: 17px; // h4
+ $base-h5-font-size: 16px; // h5
+ $global-font-size: 18px; // p
+ $global-small-font-size: 13px; // small
+ $navbar-nav-item-font-size: 13px;
+
+// 2. Import default variables and available mixins.
+@import "variables-theme.scss";
+@import "mixins-theme.scss";
+
+
+// 4. Import UIkit.
+@import "uikit-theme.scss";
+
+// 5. Custom styles
+@import "custom/import.scss"

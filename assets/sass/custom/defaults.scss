@@ -1,0 +1,17 @@
+.ft-width-max-300{
+	@media (min-width: $breakpoint-small) {
+		max-width: 300px;
+	}
+	width: 100%;
+}
+
+.uk-border{	border: 1px solid $global-border; }
+
+.uk-label{
+	border: 1px solid currentColor;
+	line-height: 1;
+}
+
+.uk-paragraph-margin-remove{
+	p{ margin-bottom: 0; }
+}

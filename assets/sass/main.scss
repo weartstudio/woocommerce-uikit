@@ -1,0 +1,61 @@
+// 1. Own variables
+$black: #000;
+$white: #fff;
+$f-heading: 'futurapt', sans-serif;
+$f-text: 'avenirnext', sans-serif;
+
+
+// UIKIT VARS
+$global-font-family: 'Avenir', sans-serif;
+$base-heading-font-weight: 700;
+$global-2xlarge-font-size: 42px; // h1
+$global-xlarge-font-size: 28px; // h2
+$global-large-font-size: 18px; // h3
+$global-medium-font-size: 17px; // h4
+$base-h5-font-size: 16px; // h5
+$global-font-size: 18px; // p
+$global-small-font-size: 13px; // small
+$navbar-nav-item-font-size: 13px;
+
+$global-color: #3c3c3c;
+$global-success-background: #52C1D9;
+$global-border: #E1E0E0;
+$global-inverse-color: $white;
+$global-primary-background: #e5fab8;
+$button-primary-color: $black;
+$button-primary-hover-color: $black;
+
+$global-link-color: $global-color;
+$global-link-hover-color: $global-color;
+$base-link-hover-text-decoration: none;
+
+$icon-button-background: $global-primary-background;
+$icon-button-color: $global-color;
+$iconnav-item-color: $global-color;
+
+$container-xsmall-max-width: 470px;
+
+$label-warning-background: transparent;
+$label-warning-color: #F32E4B;
+$label-font-size: 13px;
+$label-padding-vertical: 7px;
+$label-padding-horizontal: 15px;
+
+$card-title-font-size: 18px;
+
+$badge-background: $global-border;
+
+// 2. Import default variables and available mixins.
+@import '../../node_modules/uikit/src/scss/variables-theme.scss';
+@import '../../node_modules/uikit/src/scss/mixins-theme.scss';
+
+@mixin hook-button() {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+// 4. Import UIkit.
+@import '../../node_modules/uikit/src/scss/uikit-theme.scss';
+
+// 5. Custom styles
+@import 'custom/import.scss';

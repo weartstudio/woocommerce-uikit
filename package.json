@@ -1,0 +1,11 @@
+{
+  "name": "wp-bootstrap-starter",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch --style=compressed assets/sass/main.scss:assets/css/main.min.css"
+  },
+  "dependencies": {
+    "sass": "^1.43.2",
+    "uikit": "^3.9.2"
+  }
+}

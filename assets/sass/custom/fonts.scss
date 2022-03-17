@@ -1,0 +1,110 @@
+//
+// Fonts
+//
+@font-face {
+	font-family: 'futurapt';
+	src: url('../font/FuturaPT-Light/FuturaPT-Light.eot') format('embedded-opentype'), url('../font/FuturaPT-Light/FuturaPT-Light.woff') format('woff'), url('../font/FuturaPT-Light/FuturaPT-Light.ttf') format('truetype'),
+		url('../font/FuturaPT-Light/FuturaPT-Light.svg') format('svg');
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'futurapt';
+	src: url('../font/FuturaPT-Medium/FuturaPT-Medium.eot') format('embedded-opentype'), url('../font/FuturaPT-Medium/FuturaPT-Medium.woff') format('woff'), url('../font/FuturaPT-Medium/FuturaPT-Medium.ttf') format('truetype'),
+		url('../font/FuturaPT-Medium/FuturaPT-Medium.svg') format('svg');
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'futurapt';
+	src: url('../font/FuturaPT-Bold/FuturaPT-Bold.eot') format('embedded-opentype'), url('../font/FuturaPT-Bold/FuturaPT-Bold.woff') format('woff'), url('../font/FuturaPT-Bold/FuturaPT-Bold.ttf') format('truetype'), url('../font/FuturaPT-Bold/FuturaPT-Bold.svg') format('svg');
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'futurapt';
+	src: url('../font/FuturaPT-Bold/FuturaPT-Bold.eot') format('embedded-opentype'), url('../font/FuturaPT-Bold/FuturaPT-Bold.woff') format('woff'), url('../font/FuturaPT-Bold/FuturaPT-Bold.ttf') format('truetype'), url('../font/FuturaPT-Bold/FuturaPT-Bold.svg') format('svg');
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'futurapt';
+	src: url('../font/FuturaPT-Bold/FuturaPT-Bold.eot') format('embedded-opentype'), url('../font/FuturaPT-Bold/FuturaPT-Bold.woff') format('woff'), url('../font/FuturaPT-Bold/FuturaPT-Bold.ttf') format('truetype'), url('../font/FuturaPT-Bold/FuturaPT-Bold.svg') format('svg');
+	font-weight: 800;
+}
+@font-face {
+	font-family: 'avenirnext';
+	src: url('../font/AvenirNext/AvenirNext-Regular.eot') format('embedded-opentype'), url('../font/AvenirNext/AvenirNext-Regular.woff') format('woff'), url('../font/AvenirNext/AvenirNext-Regular.ttf') format('truetype'),
+		url('../font/AvenirNext/AvenirNext-Regular.svg') format('svg');
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'avenirnext';
+	src: url('../font/AvenirNext/AvenirNext-Medium.eot') format('embedded-opentype'), url('../font/AvenirNext/AvenirNext-Medium.woff') format('woff'), url('../font/AvenirNext/AvenirNext-Medium.ttf') format('truetype'), url('../font/AvenirNext/AvenirNext-Medium.svg') format('svg');
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'avenirnext';
+	src: url('../font/AvenirNext/AvenirNext-DemiBold.eot') format('embedded-opentype'), url('../font/AvenirNext/AvenirNext-DemiBold.woff') format('woff'), url('../font/AvenirNext/AvenirNext-DemiBold.ttf') format('truetype'),
+		url('../font/AvenirNext/AvenirNext-DemiBold.svg') format('svg');
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'avenirnext';
+	src: url('../font/AvenirNext/AvenirNext-Bold.eot') format('embedded-opentype'), url('../font/AvenirNext/AvenirNext-Bold.woff') format('woff'), url('../font/AvenirNext/AvenirNext-Bold.ttf') format('truetype'), url('../font/AvenirNext/AvenirNext-Bold.svg') format('svg');
+	font-weight: 700;
+}
+
+// h1-h6
+@for $h from 1 to 6 {
+	h#{$h},
+	.uk-#{$h} {
+		font-family: $f-heading;
+		text-transform: uppercase;
+	}
+}
+.uk-text-normal{ text-transform: none !important; }
+
+h1,
+.uk-h1 { 
+	font-family: $f-heading;
+	line-height: 1.28em;
+	font-weight: 700;
+}
+
+h2,
+.uk-h2 {
+	font-family: $f-heading;
+	line-height: 1.35em;
+	font-weight: 700;
+}
+
+h3,
+.uk-h3 {
+	font-family: $f-heading;
+	line-height: 1.222em;
+	font-weight: 400;
+}
+
+h4,
+.uk-h4 {
+	font-family: $f-text;
+	letter-spacing: 9%;
+	line-height: 1.29em;
+	font-weight: 700;
+}
+
+h5,
+.uk-h5 {
+	font-family: $f-text;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+	line-height: 1.375em;
+	font-weight: 500;
+}
+
+// font-weight
+.uk-fw-500 {
+	font-weight: 500;
+}
+
+.uk-alt-heading{
+	font-family: 'avenirnext';
+	font-weight: 700;
+}
